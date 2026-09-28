@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What is Data Science?",
+    "answer": "Data Science is an interdisciplinary field that uses programming, statistics, machine learning, and data analysis to extract useful insights from data and support decision-making."
+  },
+  {
+    "question": "What is Artificial Intelligence?",
+    "answer": "Artificial Intelligence (AI) is the field of creating computer systems that can perform tasks that normally require human intelligence, such as learning, reasoning, language understanding, and decision-making."
+  },
+  {
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning is a branch of AI that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every task."
+  },
+  {
+    "question": "What is supervised learning?",
+    "answer": "Supervised learning is a machine learning approach where a model learns from labeled data. Each training example contains input features and a known target value. It is commonly used for classification and regression."
+  },
+  {
+    "question": "What is unsupervised learning?",
+    "answer": "Unsupervised learning is a machine learning approach where the model learns patterns from data without labeled target values. It is commonly used for clustering and dimensionality reduction."
+  },
+  {
+    "question": "What is semi-supervised learning?",
+    "answer": "Semi-supervised learning uses a combination of a small amount of labeled data and a larger amount of unlabeled data. It is useful when obtaining labeled data is expensive or time-consuming."
+  },
+  {
+    "question": "What is classification?",
+    "answer": "Classification is a supervised learning task in which a model predicts a categorical class or label. Examples include spam detection, disease classification, and sentiment classification."
+  },
+  {
+    "question": "What is regression?",
+    "answer": "Regression is a supervised learning task used to predict continuous numerical values. Examples include predicting house prices, sales, temperature, and income."
+  },
+  {
+    "question": "What is K-Means clustering?",
+    "answer": "K-Means is an unsupervised learning algorithm that divides data into K clusters. It assigns data points to the nearest cluster center and repeatedly updates the centers until the clusters stabilize."
+  },
+  {
+    "question": "What is a Decision Tree?",
+    "answer": "A Decision Tree is a supervised machine learning algorithm that makes predictions using a tree-like structure. Internal nodes represent tests, branches represent outcomes, and leaf nodes represent final predictions."
+  },
+  {
+    "question": "How does a Decision Tree work?",
+    "answer": "A Decision Tree repeatedly divides data using feature-based conditions. The process starts at the root node, follows branches according to conditions, and reaches a leaf node containing the prediction."
+  },
+  {
+    "question": "What is Random Forest?",
+    "answer": "Random Forest is an ensemble machine learning algorithm that combines multiple Decision Trees. For classification, the trees generally use majority voting, while for regression their predictions are commonly averaged."
+  },
+  {
+    "question": "How does Random Forest make predictions?",
+    "answer": "Random Forest builds multiple Decision Trees using different samples and feature subsets. Each tree produces a prediction. For classification, the final result is usually the majority vote of the trees; for regression, the predictions are commonly averaged."
+  },
+  {
+    "question": "What is ensemble learning?",
+    "answer": "Ensemble learning combines predictions from multiple machine learning models to produce a stronger overall model. Random Forest and Gradient Boosting are examples of ensemble methods."
+  },
+  {
+    "question": "What is bagging?",
+    "answer": "Bagging, or Bootstrap Aggregating, trains multiple models on different bootstrap samples of the training data and combines their predictions. It can reduce variance and improve model stability."
+  },
+  {
+    "question": "What is overfitting?",
+    "answer": "Overfitting occurs when a model learns the training data too closely, including noise and unnecessary patterns. Such a model may perform well on training data but poorly on unseen data."
+  },
+  {
+    "question": "What is underfitting?",
+    "answer": "Underfitting occurs when a model is too simple to learn important patterns in the data. It can result in poor performance on both training and testing data."
+  },
+  {
+    "question": "What is training data?",
+    "answer": "Training data is the portion of a dataset used to teach a machine learning model. The model learns relationships and patterns from this data."
+  },
+  {
+    "question": "What is testing data?",
+    "answer": "Testing data is a separate portion of a dataset used to evaluate how well a trained machine learning model performs on unseen data."
+  },
+  {
+    "question": "What is train-test split?",
+    "answer": "Train-test split divides a dataset into training and testing portions. The training portion is used to build the model, while the testing portion is used to evaluate its performance."
+  },
+  {
+    "question": "What is cross-validation?",
+    "answer": "Cross-validation is a model evaluation technique that divides data into multiple parts called folds. The model is trained and tested multiple times using different folds, and the results are combined to estimate performance."
+  },
+  {
+    "question": "What is feature engineering?",
+    "answer": "Feature engineering is the process of creating, transforming, or selecting input variables to improve machine learning model performance."
+  },
+  {
+    "question": "What is feature selection?",
+    "answer": "Feature selection is the process of choosing the most relevant input variables for a machine learning model. It can reduce complexity, improve performance, and make models easier to interpret."
+  },
+  {
+    "question": "What is data preprocessing?",
+    "answer": "Data preprocessing is the process of preparing raw data for analysis or machine learning. Common steps include handling missing values, treating outliers, encoding categorical variables, scaling features, and splitting data."
+  },
+  {
+    "question": "What are missing values?",
+    "answer": "Missing values are data entries where information is unavailable or not recorded. They can be handled by removing affected records or filling the values using methods such as mean, median, mode, or other appropriate techniques."
+  },
+  {
+    "question": "What are outliers?",
+    "answer": "Outliers are observations that are unusually different from the majority of values in a dataset. They can result from measurement errors or genuine unusual observations and should be investigated before deciding how to handle them."
+  },
+  {
+    "question": "What is normalization?",
+    "answer": "Normalization is a feature scaling technique that commonly transforms numerical values to a fixed range, often between 0 and 1. It can be useful for algorithms sensitive to feature scale."
+  },
+  {
+    "question": "What is standardization?",
+    "answer": "Standardization transforms numerical features so that they have a mean close to 0 and a standard deviation close to 1. It is commonly used with algorithms such as KNN and SVM."
+  },
+  {
+    "question": "What is accuracy?",
+    "answer": "Accuracy is the proportion of correct predictions among all predictions. It is calculated as the number of correct predictions divided by the total number of predictions."
+  },
+  {
+    "question": "What is precision?",
+    "answer": "Precision measures how many observations predicted as positive are actually positive. It is especially useful when false positive predictions are important."
+  },
+  {
+    "question": "What is recall?",
+    "answer": "Recall measures how many of the actual positive observations were correctly identified by the model. It is especially important when missing positive cases is costly."
+  },
+  {
+    "question": "What is F1-score?",
+    "answer": "F1-score is the harmonic mean of precision and recall. It provides a single measure that balances both precision and recall."
+  },
+  {
+    "question": "What is a confusion matrix?",
+    "answer": "A confusion matrix is a table used to evaluate classification models. It contains true positives, true negatives, false positives, and false negatives."
+  },
+  {
+    "question": "What is K-Nearest Neighbors?",
+    "answer": "K-Nearest Neighbors (KNN) is a supervised learning algorithm that predicts the class or value of a data point using the closest K training examples."
+  },
+  {
+    "question": "What is Naive Bayes?",
+    "answer": "Naive Bayes is a probabilistic supervised learning algorithm based on Bayes' theorem. It assumes that features are conditionally independent given the class and is commonly used for text classification."
+  },
+  {
+    "question": "What is Support Vector Machine?",
+    "answer": "Support Vector Machine (SVM) is a supervised learning algorithm that finds a decision boundary that separates classes. It can also use kernel functions to handle nonlinear relationships."
+  },
+  {
+    "question": "What is linear regression?",
+    "answer": "Linear Regression is a supervised learning algorithm used to model the relationship between a dependent variable and one or more independent variables. It is commonly used for predicting continuous values."
+  },
+  {
+    "question": "What is Python?",
+    "answer": "Python is a high-level, general-purpose programming language known for its readable syntax. It is widely used in Data Science, machine learning, automation, web development, and scientific computing."
+  },
+  {
+    "question": "What is NumPy?",
+    "answer": "NumPy is a Python library for numerical computing. It provides multidimensional arrays and efficient mathematical operations that are widely used in Data Science."
+  },
+  {
+    "question": "What is Pandas?",
+    "answer": "Pandas is a Python library used for data manipulation and analysis. Its main data structures are Series and DataFrame. It provides functions for cleaning, transforming, filtering, and analyzing data."
+  },
+  {
+    "question": "What is SQL?",
+    "answer": "SQL stands for Structured Query Language. It is used to create, retrieve, update, and manage data stored in relational databases."
+  },
+  {
+    "question": "What is a database?",
+    "answer": "A database is an organized collection of data that can be stored, managed, searched, and updated efficiently using database management software."
+  },
+  {
+    "question": "What is data visualization?",
+    "answer": "Data visualization is the graphical representation of data using charts, graphs, maps, and other visual techniques. It helps users understand patterns, trends, relationships, and unusual values."
+  },
+  {
+    "question": "What is NLP?",
+    "answer": "Natural Language Processing (NLP) is a field of AI that enables computers to process, understand, and generate human language. Applications include chatbots, sentiment analysis, translation, and text classification."
+  },
+  {
+    "question": "What is Generative AI?",
+    "answer": "Generative AI is a type of Artificial Intelligence that creates new content such as text, images, audio, video, or code based on patterns learned from data."
+  },
+  {
+    "question": "What is an LLM?",
+    "answer": "A Large Language Model (LLM) is a neural network trained on large amounts of text to understand and generate human-like language. LLMs can perform tasks such as question answering, summarization, translation, and text generation."
+  },
+  {
+    "question": "What is a transformer?",
+    "answer": "A Transformer is a neural network architecture that uses attention mechanisms to process relationships between tokens in sequential data. Transformers are widely used in modern language models."
+  },
+  {
+    "question": "What is an embedding?",
+    "answer": "An embedding is a numerical vector representation of data such as text. Similar meanings can be represented by vectors that are close together in the embedding space, making embeddings useful for semantic search and RAG."
+  },
+  {
+    "question": "What is RAG?",
+    "answer": "Retrieval-Augmented Generation (RAG) is a technique that retrieves relevant information from an external knowledge base and provides it as context to a language model before generating an answer."
+  },
+  {
+    "question": "What is semantic search?",
+    "answer": "Semantic search finds information based on meaning rather than relying only on exact keyword matches. Embedding models convert text into vectors, allowing similar questions and documents to be retrieved based on their semantic similarity."
+  }
+]
